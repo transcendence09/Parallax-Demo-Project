@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+  .parallax1{
+    background-image: url("images/greece.jpg");
+
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+  .parallax2{
+    background-image: url("images/Rose-in-Beauty-and-the-Beast-2017-Wallpaper-HD-800x600.jpg");
+
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+  .parallax3{
+    background-image: url("images/Warrior_angel_badass_tough_angle_sword_of_hd-wallpaper-1151037.jpg");
+
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+  .jumbotron{
+      
+      border-radius: 0;
+      /* Remove Bottom Margin from Jumbotron */
+      margin-bottom: 0;
+  }
+  
+  .container-fluid{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+  </style>
+</head>
+<body>
+  <!--Navigation Start-->
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#"><i class="fa fa-fire fa-2x"></i> Fires Of Prometheus</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+      <!--Navigation End-->
+    
+  </header>
+ 
+    
+  <div class="jumbotron parallax1 text-center text-white ">
+    <div class="container-fluid">
+      <h2 class="display-3 mt-5 my-3">This Demo Will Show The Use Of Parallax</h2>
+      <p class="lead mb-5">This is a work done by Transcendence the Athenian Coder.</p>
+      <button type="button" class="btn btn-info btn-lg" role="button">Bootstrap 4</button>
+    </div>
+  </div>
+  
+  <div class="jumbotron parallax2 text-center text-white">
+      <div class="container-fluid mt-5">
+        <h2 class="display-3  mt-5 my-3">This Demo Will Show The Use Of Parallax</h2>
+        <p class="lead  mb-5 ">This is a work done by Transcendence the Athenian Coder.</p>
+        <button type="button" class="btn btn-info btn-lg my-auto" role="button">Bootstrap 4</button>
+      </div>
+    </div>
+
+
+    
+    <div class="jumbotron parallax3 text-center text-white">
+        <div class="container-fluid">
+          <h2 class="display-3  mt-5 my-3">This Demo Will Show The Use Of Parallax</h2>
+          <p class="lead  mb-5">This is a work done by Transcendence the Athenian Coder.</p>
+          <button type="button" class="btn btn-info btn-lg" role="button">Bootstrap 4</button>
+        </div>
+      </div>
+
+      <footer class="d-flex mr-auto p-1 bg-dark">
+       <a href="#" class="fa-icon"><i class="fa fa-twitter fa-2x mx-3 "></i></a> 
+       <a  href="#" class="fa-icon"><i class="fa fa-instagram fa-2x mx-3"></i></a> 
+        <a  href="#" class="fa-icon"><i class="fa fa-facebook fa-2x mx3"></i></a>
+        
+      </footer>
+</body>
+</html>
